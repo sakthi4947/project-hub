@@ -13,8 +13,15 @@
       <input type="date" id="due-date-input">
       <button type="submit">Add Task</button>
     </form>
+
+    <div class="filters">
+      <button id="filter-all" class="filter-btn active">All</button>
+      <button id="filter-completed" class="filter-btn">Completed</button>
+      <button id="filter-pending" class="filter-btn">Pending</button>
+    </div>
+
     <ul id="task-list"></ul>
   </div>
   <script src="script.js"></script>
 </body>
-</html>ects
+</html>
