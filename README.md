@@ -1,27 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>To-Do List App</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>📝 To-Do List</h1>
-    <form id="task-form">
-      <input type="text" id="task-input" placeholder="Enter a task..." required>
-      <input type="date" id="due-date-input">
-      <button type="submit">Add Task</button>
-    </form>
+To-Do List Web App
+A simple collaborative To-Do List application built as part of our GitHub Collaboration Project.
 
-    <div class="filters">
-      <button id="filter-all" class="filter-btn active">All</button>
-      <button id="filter-completed" class="filter-btn">Completed</button>
-      <button id="filter-pending" class="filter-btn">Pending</button>
-    </div>
+👥 Team – CodeCrafters
+Name	Role	GitHub
+Arjun Mehta	Team Lead / Repo Setup	@arjun-dev
+Sneha Rao	Frontend Developer	@sneharao
+Kabir Singh	Backend Developer	@kabirsingh
+Priya Nair	Documentation / Testing	@priyanair
+🚀 Features
+Add, edit, and delete tasks
+Set due dates for tasks
+Mark tasks as complete
+🛠️ Tech Stack
+HTML, CSS, JavaScript
+[Add backend/framework if used]
+📦 Setup
+```bash git clone https://github.com/team-codecrafters/todo-list-app.git cd todo-list-app
 
-    <ul id="task-list"></ul>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
+add install/run steps here
+```
+
+🌿 Branching Convention
+type/short-description — e.g. feature/task-form, bugfix/delete-button
+
+📝 Commit Convention
+Type: short description — e.g. Fix: delete button not working
+
+📋 Issues & Contributions
+See the Issues tab for tracked tasks and the Pull Requests tab for individual contributions.
